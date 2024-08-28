@@ -153,10 +153,10 @@ available-typed-arrays@^1.0.2:
   dependencies:
     array-filter "^1.0.0"
 
-axios@^1.6.7:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.1.tgz#522145622a09dfaf49359837db9649ff245a35b9"
-  integrity sha512-+LV37nQcd1EpFalkXksWNBiA17NZ5m5/WspmHGmZmdx1qBOg/VNq/c4eRJiA9VQQHBOs+N0ZhhdU10h2TyNK7Q==
+axios@^1.7.4:
+  version "1.7.5"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.5.tgz#21eed340eb5daf47d29b6e002424b3e88c8c54b1"
+  integrity sha512-fZu86yCo+svH3uqJ/yTdQ0QHpQu5oL+/QE+QPSv6BZSkDAoky9vytxp7u5qk83OJFS3kEBcesWni9WTZAv3tSw==
   dependencies:
     follow-redirects "^1.15.6"
     form-data "^4.0.0"
@@ -262,13 +262,13 @@ chokidar@3.5.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
-chromedriver@^126.0.1:
-  version "126.0.1"
-  resolved "https://registry.yarnpkg.com/chromedriver/-/chromedriver-126.0.1.tgz#2591500833ba5baa626c2725f2877cce02237883"
-  integrity sha512-uV4xIvpPimKmV1/Hn9oX0C57tjsBbVtOeKFX9JzzPYpsu8xiSUAdqa3A8mgZE5DMJKDDoDyDIrA656QncVWRzg==
+chromedriver@^128.0.0:
+  version "128.0.0"
+  resolved "https://registry.yarnpkg.com/chromedriver/-/chromedriver-128.0.0.tgz#7f75a984101199e0bcc2c92fe9f91917fcd1f918"
+  integrity sha512-Ggo21z/dFQxTOTgU0vm0V59Mi79yyR+9AUk/KiVAsRfbDRdVZQYQWfgxnIvD/x8KOKn0oB7haRzDO/KfrKyvOA==
   dependencies:
     "@testim/chrome-version" "^1.1.4"
-    axios "^1.6.7"
+    axios "^1.7.4"
     compare-versions "^6.1.0"
     extract-zip "^2.0.1"
     proxy-agent "^6.4.0"
